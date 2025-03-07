@@ -37,9 +37,9 @@ import './style.scss'
 import {
   rolesToAddSelector,
   selectedUserSelector,
-
   setRolesToAdd,
-  setSelectedUserToAdd} from 'features/admin/userDeprecated/slice'
+  setSelectedUserToAdd,
+} from 'features/admin/userDeprecated/slice'
 import {
   setUserRoleResp,
   useUpdateUserRolesMutation,

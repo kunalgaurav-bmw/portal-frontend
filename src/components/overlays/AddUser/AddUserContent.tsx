@@ -32,9 +32,9 @@ import { UserRoles } from './UserRoles'
 import {
   rolesToAddSelector,
   usersToAddSelector,
-
   setRolesToAdd,
-  setUsersToAdd} from 'features/admin/userDeprecated/slice'
+  setUsersToAdd,
+} from 'features/admin/userDeprecated/slice'
 import { useDispatch, useSelector } from 'react-redux'
 import { closeOverlay } from 'features/control/overlay'
 import './style.scss'
